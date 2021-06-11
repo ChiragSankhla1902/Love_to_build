@@ -1,0 +1,58 @@
+.size1{
+    width: auto;
+}
+
+.jumbopro2{
+    width: 1050px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.button{
+    background-color: white;
+
+    color:rgb(221, 0, 44) ;
+    padding-top: 70px;
+    border-radius: 3%;
+    border:  1px solid  rgb(221, 0, 44);
+    width: 400px;
+    text-align: center;
+    height: 200px;
+    transition-delay: 1ms;
+    transition-duration: 1s;
+}
+
+.button:hover{
+    /* background-color:rgb(221, 0, 44); */
+    background-image: url('../Component/Images/comp/code1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+
+    /* border: rgb(221, 0, 44); */
+}
+
+.lab{
+    margin-right: 160px;
+}
+
+.inp{
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid grey;
+}
+
+@media only screen and (max-width:660px){
+    .jumbopro2{
+        width: auto;
+    }
+}
